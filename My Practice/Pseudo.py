@@ -12,3 +12,5 @@ print("Random float between 0 and 1:", random_float)
 import numpy as np 
 # Create a 2D array
 array_2d = np.array([[1, 2, 3], [4, 5, 6]])
+print("Original 2D array:")
+print(array_2d)
