@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # basic list operations in Python
 
 def create_list():
@@ -66,9 +64,8 @@ def loop_through_list():
 
 def list_length():
     """Get length of list"""
-    numbers = [1, 2, 3, 4, 5,77,9,12]
-    number_of_elements = len(numbers)
-    print(f"Length: {number_of_elements}")
+    numbers = [1, 2, 3, 4, 5]
+    print("Length:", len(numbers))
 
 
 def check_membership():
@@ -83,8 +80,6 @@ def sort_list():
     """Sort a list"""
     numbers = [5, 2, 9, 1, 3]
 
-    # numbers  = sorted(numbers)
-
     numbers.sort()
     print("Sorted list:", numbers)
 
@@ -96,8 +91,8 @@ def main():
     # print("\n--- ACCESS ELEMENTS ---")
     # access_elements()
     #
-    # print("\n--- MODIFY ELEMENTS ---")
-    # modify_elements()
+    print("\n--- MODIFY ELEMENTS ---")
+    modify_elements()
     #
     # print("\n--- ADD ELEMENTS ---")
     # add_elements()
@@ -105,22 +100,21 @@ def main():
     # print("\n--- REMOVE ELEMENTS ---")
     # remove_elements()
     #
-    print("\n--- LIST SLICING ---")
-    list_slicing()
-
-    print("\n--- LOOP THROUGH LIST ---")
-    loop_through_list()
-
-    print("\n--- LIST LENGTH ---")
-    list_length()
-
-    print("\n--- CHECK MEMBERSHIP ---")
-    check_membership()
-
-    print("\n--- SORT LIST ---")
-    sort_list()
+    # print("\n--- LIST SLICING ---")
+    # list_slicing()
+    #
+    # print("\n--- LOOP THROUGH LIST ---")
+    # loop_through_list()
+    #
+    # print("\n--- LIST LENGTH ---")
+    # list_length()
+    #
+    # print("\n--- CHECK MEMBERSHIP ---")
+    # check_membership()
+    #
+    # print("\n--- SORT LIST ---")
+    # sort_list()
 
 
 if __name__ == "__main__":
     main()
->>>>>>> e7de10f4f8d2f1a34837d6adf40da4ac49e7b6e0
